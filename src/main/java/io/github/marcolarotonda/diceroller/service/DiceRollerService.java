@@ -22,13 +22,7 @@ public class DiceRollerService {
         DiceType diceType = rollEntity.getDiceType();
 
         for (int i = 0; i < rollEntity.getQuantity(); i++) {
-
-            int rollResult = basicDiceRollerService.roll(diceType, rollEntity.getRollType());
-
-            if (rollEntity.isMerit() && (rollResult == 1 || rollResult == 2)) {
-                rollResult = basicDiceRollerService.roll(diceType);
-            }
-
+            int rollResult = basicDiceRollerService.roll(diceType, rollEntity.getRollType(), rollEntity.isMerit());
             result.addResult(rollResult);
         }
 
