@@ -41,7 +41,7 @@ public class BasicDiceRollerService {
 
     public int meritRoll(DiceType dice) {
         int roll = roll(dice);
-        if (roll <= 2) {
+        if (roll == 1 || roll == 2) {
             roll = roll(dice);
         }
         return roll;
