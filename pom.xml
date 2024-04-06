@@ -51,6 +51,20 @@
 			<artifactId>lombok</artifactId>
 			<scope>provided</scope>
 		</dependency>
+
+		<dependency>
+			<groupId>io.github.marcolarotonda</groupId>
+			<artifactId>diceroller-util</artifactId>
+			<version>1.0</version>
+		</dependency>
 	</dependencies>
+
+	<repositories>
+		<repository>
+			<id>repsy</id>
+			<name>repsy-diceroller</name>
+			<url>https://repo.repsy.io/mvn/marcolarotonda/diceroller</url>
+		</repository>
+	</repositories>
 
 </project>

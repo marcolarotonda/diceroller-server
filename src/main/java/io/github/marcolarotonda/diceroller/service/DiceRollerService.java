@@ -1,8 +1,8 @@
 package io.github.marcolarotonda.diceroller.service;
 
-import io.github.marcolarotonda.diceroller.enumeration.DiceType;
-import io.github.marcolarotonda.diceroller.model.Result;
-import io.github.marcolarotonda.diceroller.model.RollOption;
+import io.github.marcolarotonda.dicerollerutil.enumeration.DiceType;
+import io.github.marcolarotonda.dicerollerutil.model.Result;
+import io.github.marcolarotonda.dicerollerutil.model.RollOption;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
