@@ -1,8 +1,8 @@
 package io.github.marcolarotonda.dicerollerserver.service;
 
 import io.github.marcolarotonda.dicerollerutil.enumeration.DiceType;
-import io.github.marcolarotonda.dicerollerutil.model.Result;
 import io.github.marcolarotonda.dicerollerutil.model.RollOption;
+import io.github.marcolarotonda.dicerollerutil.model.RollResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -17,8 +17,8 @@ public class DiceRollerService {
         this.basicDiceRollerService = basicDiceRollerService;
     }
 
-    public Result roll(RollOption rollEntity) {
-        Result result = new Result();
+    public RollResult roll(RollOption rollEntity) {
+        RollResult result = new RollResult();
         DiceType diceType = rollEntity.getDiceType();
 
         for (int i = 0; i < rollEntity.getQuantity(); i++) {

@@ -2,7 +2,7 @@ package io.github.marcolarotonda.dicerollerserver.controller;
 
 
 import io.github.marcolarotonda.dicerollerserver.service.DiceRollerService;
-import io.github.marcolarotonda.dicerollerutil.model.Result;
+import io.github.marcolarotonda.dicerollerutil.model.RollResult;
 import io.github.marcolarotonda.dicerollerutil.model.RollOption;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -13,7 +13,7 @@ import java.util.Optional;
 
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/diceroller")
 public class DiceController {
 
     private final DiceRollerService diceRollerService;
@@ -25,7 +25,7 @@ public class DiceController {
 
 
     @GetMapping(value = "/roll")
-    public Result rollDice(@RequestParam DiceType diceType,
+    public RollResult rollDice(@RequestParam DiceType diceType,
                            @RequestParam(required = false) Optional<RollType> rollType,
                            @RequestParam(required = false) Optional<Integer> quantity,
                            @RequestParam(required = false) Optional<Integer> modifier,
