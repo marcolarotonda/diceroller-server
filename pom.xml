@@ -9,10 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>io.github.marcolarotonda</groupId>
-	<artifactId>diceroller</artifactId>
+	<artifactId>diceroller-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>diceroller</name>
-	<description>Demo project for Spring Boot</description>
+	<name>diceroller-server</name>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
