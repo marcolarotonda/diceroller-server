@@ -1,4 +1,4 @@
-package io.github.marcolarotonda.diceroller.service;
+package io.github.marcolarotonda.dicerollerserver.service;
 
 
 import io.github.marcolarotonda.dicerollerutil.enumeration.DiceType;

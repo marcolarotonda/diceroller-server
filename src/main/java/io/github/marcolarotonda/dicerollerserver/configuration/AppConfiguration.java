@@ -1,4 +1,4 @@
-package io.github.marcolarotonda.diceroller.configuration;
+package io.github.marcolarotonda.dicerollerserver.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

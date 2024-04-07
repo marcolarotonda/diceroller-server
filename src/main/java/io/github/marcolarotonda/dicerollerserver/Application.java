@@ -1,4 +1,4 @@
-package io.github.marcolarotonda.diceroller;
+package io.github.marcolarotonda.dicerollerserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

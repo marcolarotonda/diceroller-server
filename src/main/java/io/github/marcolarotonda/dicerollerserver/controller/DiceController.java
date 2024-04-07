@@ -1,7 +1,7 @@
-package io.github.marcolarotonda.diceroller.controller;
+package io.github.marcolarotonda.dicerollerserver.controller;
 
 
-import io.github.marcolarotonda.diceroller.service.DiceRollerService;
+import io.github.marcolarotonda.dicerollerserver.service.DiceRollerService;
 import io.github.marcolarotonda.dicerollerutil.model.Result;
 import io.github.marcolarotonda.dicerollerutil.model.RollOption;
 import org.springframework.beans.factory.annotation.Autowired;
